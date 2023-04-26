@@ -65,7 +65,7 @@ const Navbar = () => {
         <div className='absolute z-10 top-8 left-8'>
           <Logo />
         </div> 
-        <GiHamburgerMenu onClick={AddClass} className='w-14 h-14 text-mediumSecondary absolute z-10 top-12 right-8 cursor-pointer transition duration-1000 ease-in-out hover:text-slate-100' />
+        <GiHamburgerMenu onClick={AddClass} className='w-14 h-14 text-mediumSecondary fixed z-10 top-12 right-8 cursor-pointer transition duration-1000 ease-in-out  hover:text-slate-100' />
         <nav id="navMobile" className='fixed hidden right-0 top-0 bg-primary h-full w-96 z-30 text-center pt-96 '>
           <AiOutlineClose onClick={RemoveClass} className='w-10 h-10 text-mediumSecondary absolute z-10 top-16 left-16 cursor-pointer transition duration-1000 ease-in-out hover:text-slate-100'/>
           <ul className='flex flex-col gap-8 '>
