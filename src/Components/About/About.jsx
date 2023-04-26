@@ -3,10 +3,10 @@ import React from 'react'
 
 const About = () => {
   return (
-    <section className='max-w-100max w-full my-0 mx-auto py-0 px-8 mb-64 flex items-center gap-24'>
+    <section id='about' className='max-w-100max w-full my-0 mx-auto py-0 px-8 mb-64 flex items-center gap-24 scroll-mt-2.5 lg:flex-col lg:gap-12 lg:max-w-60rem'>
       <Image src='/about.png' alt="Sobre nós" width={500} height={400} className='max-w-full h-auto' />
       <div className='flex flex-col gap-8'>
-        <h2 className='font-Inter capitalize text-6xl font-medium text-darkSecondary'>Conheça mais sobre o Bubble Coffe</h2>
+        <h2 className='font-Inter text-6xl font-medium text-darkSecondary lg:text-center mm:text-5xl'>Conheça mais sobre o Bubble Coffe</h2>
         <p>
           Tudo começou quando um grupo de amigos percebeu que faltava um lugar
           em sua cidade para desfrutar de um café de qualidade, em um ambiente
